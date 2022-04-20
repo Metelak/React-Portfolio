@@ -19,12 +19,22 @@ function App() {
   ]);
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
-  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>this is my app</h1>
-      </header>
+    <div>
+      <Header>
+        <Navigation
+        pages={pages}
+        setCurrentPage={setCurrentPage}
+        currentPage={currentPage}
+        ></Navigation>
+      </ Header>
+      <main>
+        <Page
+        currentPage={currentPage}
+        ></Page>
+      </main>
+      <Footer />
     </div>
   );
 }
