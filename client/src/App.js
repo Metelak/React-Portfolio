@@ -6,6 +6,20 @@ import Page from './components/Page';
 import './App.css';
 
 function App() {
+  const [pages]=useState([
+    {
+      name:"about me"
+    },
+    {
+      name:"portfolio"
+    },
+    {
+      name:"contact"
+    }
+  ]);
+
+  const [currentPage, setCurrentPage] = useState(pages[0]);
+  
   return (
     <div className="App">
       <header className="App-header">
