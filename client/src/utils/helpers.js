@@ -7,10 +7,6 @@ export function validateEmail(email) {
   return re.test(String(email).toLowerCase());
 }
 
-export function checkPassword(input) {
-  const passw = /^[A-Za-z]\w{7,14}$/;
-  if (input.match(passw)) {
-    return true;
-  }
-  return false;
+export function removeHyphensAndCapitalize(string) {
+  return string.replace(/-/g, ' ').replace(/(^\w|\s\w)/g, m => m.toUpperCase())
 }

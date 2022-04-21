@@ -1,29 +1,18 @@
-import React from "react";
-import profilepic from "../../assets/profilepic.jpg";
+import React from 'react';
 
 function About() {
   return (
-    <section>
-      <div className="about">
-        <h1 id="about">About Me</h1>
-        <img className="profilepic" src={profilepic} alt="Megan" />
-        <div>
-          <p className="">
-            Hi, I'm Megan and I am new to the tech industry. Originally have my
-            Masters in Occupational Therapy. Been working as an Occupational
-            Therapist for 8 years now and needed a change. I wanted to branch
-            out into a career where I could put my creative, problem solving
-            brain to work. Also, wanted to transition to a job with more
-            flexibility and the option to work remotely so that I can travel
-            more! Did my research and stumbled upon coding and becoming a
-            developer. I learned that attending a coding bootcamp provides
-            similar if not the same training a computer science degree receives.
-            Luckily there was a program through a great college close to where I
-            live, University of Minnesota. I am currently emersed in this coding
-            bootcamp and hopefully will soon develop the skills to start a
-            career as a developer!
-          </p>
+    <section className="my-5">
+      <div className="my-2">
+        <div className="profile-img my-5">
+        <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
         </div>
+        <p>
+        Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter plaid direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard Carles you probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut paleo scenester
+        </p>
+        <p>
+        Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray organic tousled retro fap squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably haven't heard of them American Apparel next level pug ugh.
+        </p>
       </div>
     </section>
   );

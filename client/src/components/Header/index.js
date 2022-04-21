@@ -1,17 +1,15 @@
 import React from 'react';
-import coverImage from '../../assets/cover/cover-image.jpg'
+import coverImage from '../../assets/cover/cover-image.jpg';
 
 function Header(props) {
 
-    return (
-      <div>
-        <header>
-          <h1>M.Metelak</h1>
-          <img src={coverImage} alt="something"></img>
-          {props.children}
-        </header>
-      </div>
-    );
-  }
-  
+  return (
+    <header className="flex-row space-between px-1">
+      <h1>Lernantino</h1>
+      <img src={coverImage} alt="wooden background"></img>
+      {props.children}
+    </header>
+  );
+}
+
 export default Header;
