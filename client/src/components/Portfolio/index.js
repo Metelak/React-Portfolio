@@ -7,19 +7,19 @@ function Portfolio() {
   const [projects] = useState([
     {
       name: "weathered-vibes",
-      description: "frontend project",
+      description: "Frontend Project",
       link: "https://sepidehayani.github.io/WeatheredVibes/",
       repo: "https://github.com/SepidehAyani/WeatheredVibes",
     },
     {
       name: "travel-bug",
-      description: "full-stack project",
+      description: "Full-Stack Project",
       link: "https://travelbug-project.herokuapp.com/",
       repo: "https://github.com/Metelak/Travel-bug",
     },
     {
       name: "Ritual",
-      description: "MERN SPA",
+      description: "MERN SPA Project",
       link: "https://ritual-app-01.herokuapp.com/",
       repo: "https://github.com/Metelak/Ritual",
     },
