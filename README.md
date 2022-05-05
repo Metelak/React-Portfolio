@@ -1,5 +1,4 @@
-# React-Portfolio
-# **react-to-my-skills**
+# **React-to-my-skills**
 ## **Description:**
 Professional portfolio built with React.
 ## **Preview Image:**
@@ -11,7 +10,8 @@ Professional portfolio built with React.
 Please feel free to download this project from my repo to your local drive. Open in VS Code and make sure to install all packages prior to running the progam.
 
 ## **Project Links:**
-### [**GitHub Repository**](https://github.com/Metelak/react-to-my-skills)
+### [**GitHub Repository**](https://github.com/Metelak/React-to-my-skills)
+### [**GitHub Page**](https://metelak.github.io/React-to-my-skills/)
 
 ## **Questions:**
 If you have any questions regarding this application, contact me through [GitHub](https://github.com/Metelak) or [Email](megan.metelak@gmail.com).
