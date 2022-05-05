@@ -8,8 +8,8 @@ main {
   --secondary: #31343d;
   --tertiary: #b12704;
   --light: #fafafa;
-  --dark: #5e7c75e3;
-  --darker: #075548;
+  --dark: #2796f1e3;
+  --darker: #030303;
   --alpha: rgba(255, 255, 255, 0.7);
   --error: rgb(228, 46, 1);
 }
