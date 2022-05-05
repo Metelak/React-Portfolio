@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React-to-my-skills/static/css/main.547525e5.css",
+    "main.js": "/React-to-my-skills/static/js/main.1cd773b9.js",
+    "static/media/weathered-vibes.jpg": "/React-to-my-skills/static/media/weathered-vibes.a68668060b7f1074ec93.jpg",
+    "static/media/travel-bug.jpg": "/React-to-my-skills/static/media/travel-bug.c152f7e3881535444dca.jpg",
+    "static/media/Ritual.jpg": "/React-to-my-skills/static/media/Ritual.4ae40c4aa11927a4aa52.jpg",
+    "static/media/profilepic.jpg": "/React-to-my-skills/static/media/profilepic.4fc65cd99e66f6ab7198.jpg",
+    "index.html": "/React-to-my-skills/index.html",
+    "main.547525e5.css.map": "/React-to-my-skills/static/css/main.547525e5.css.map",
+    "main.1cd773b9.js.map": "/React-to-my-skills/static/js/main.1cd773b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.547525e5.css",
+    "static/js/main.1cd773b9.js"
+  ]
+}
